@@ -1,0 +1,72 @@
+.logo {
+    display: inline;
+    
+    width: 150px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .header {
+    background-color: rgba(6, 3, 93, 0.962);
+    display: flex;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 50px 50px 30px 60px;
+    margin: 0;
+    text-align: center;
+  } 
+
+
+  .nav-links li{
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+
+  .search {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 80px;
+  }
+  
+  .search .MuiSvgIcon-root {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .search .MuiTextField-root {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    width: 250px;
+    height: 40px;
+  }
+  
+  
+  .MuiFormControl-root {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .nav-links li{
+      display: flex;
+      margin: 10px 0;
+    }
+  
+    .nav-links{
+      padding: 10px 0;
+    }
+     .search .MuiTextField-root {
+    width: 150px;
+  }
+  }
+  

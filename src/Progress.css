@@ -1,0 +1,115 @@
+/* .welcome {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.welcome p {
+  font-size: 25px;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.welcome h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.header_progress {
+  background-color: white;
+  display: flex;
+}
+.payment_logo{
+  height: 300px;
+  width:300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome p {
+      font-size: 20px;
+  }
+  .welcome h1 {
+      font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .welcome p {
+      font-size: 16px;
+  }
+  .welcome h1 {
+      font-size: 24px;
+  }
+} */
+
+
+.header_progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  padding-top: 50px;
+  background-image: url('https://drive.google.com/uc?export=view&id=1nR7guDunfev08J5L1nz-pUxc2gQkTcPJ');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 1000px;
+  /* margin-top: 50px; */
+}
+
+.welcome h1 {
+  font-size: 60px;
+  margin-bottom: 90px;
+  color: black;
+  /* background-color: rgb(220,220,220); */
+  text-shadow: 0 0 30px #fff;
+  border-radius: 5px;
+}
+
+.welcome p {
+  font-size: 25px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  background-color: rgb(220,220,220);
+}
+
+.payment_logo {
+  height: 300px;
+  width: 300px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .welcome h1 {
+    font-size: 30px;
+  }
+  
+  .welcome p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .welcome h1 {
+    font-size: 24px;
+  }
+  
+  .welcome p {
+    font-size: 16px;
+  }
+}
